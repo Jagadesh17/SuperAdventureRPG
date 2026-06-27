@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Engine/Engine.csproj" />
+  <Project Path="SuperAdventure/SuperAdventure.csproj" />
+</Solution>
