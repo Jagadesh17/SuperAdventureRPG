@@ -10,7 +10,7 @@ namespace SuperAdventure
             InitializeComponent();
 
 
-            _player = new Player(10,10,20,0,1);  // Create a new instance of the Player class and assign it to the _player field
+            _player = new Player(10, 10, 20, 0, 1);  // Create a new instance of the Player class and assign it to the _player field
 
             lblHitPoints.Text = _player.CurrentHitPoints.ToString(); // Display the player's current hit points in the lblHitPoints label
             lblGold.Text = _player.Gold.ToString();                 // Display the player's gold in the lblGold label
@@ -43,6 +43,9 @@ namespace SuperAdventure
 
         }
 
-       
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
