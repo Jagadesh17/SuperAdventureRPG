@@ -9,6 +9,7 @@ namespace Engine
         public int Gold { get; set; }             // Property to hold the player's gold
         public int ExperiencePoints { get; set; } // Property to hold the player's experience points
         public int Level { get; set; }             // Property to hold the player's level
+        public Location CurrentLocation { get; set; } // Property to hold the player's current location
         public List<InventoryItem> Inventory { get; set; }
         public List<PlayerQuest> Quests { get; set; }
         public Player(int currentHitPoints, int maximumHitPoints, int gold, int experiencePoints, int level): base(currentHitPoints, maximumHitPoints)

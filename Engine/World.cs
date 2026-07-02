@@ -209,7 +209,7 @@ namespace Engine
             return null;
         }
 
-        public static Location LocationByID(int id)
+        public static Location LocationByID(int id) //method that takes an integer ID as a parameter and returns the corresponding Location object from the Locations list. If no location with the specified ID is found, it returns null.
         {
             foreach (Location location in Locations)
             {

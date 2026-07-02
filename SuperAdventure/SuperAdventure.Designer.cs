@@ -61,6 +61,7 @@
             label1.Size = new Size(62, 15);
             label1.TabIndex = 0;
             label1.Text = "Hit points:";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
