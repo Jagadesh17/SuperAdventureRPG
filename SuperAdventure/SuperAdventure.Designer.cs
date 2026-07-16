@@ -61,7 +61,6 @@
             label1.Size = new Size(62, 15);
             label1.TabIndex = 0;
             label1.Text = "Hit points:";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -71,7 +70,6 @@
             label2.Size = new Size(35, 15);
             label2.TabIndex = 1;
             label2.Text = "Gold:";
-            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -90,7 +88,6 @@
             label4.Size = new Size(37, 15);
             label4.TabIndex = 3;
             label4.Text = "Level:";
-            label4.Click += label4_Click;
             // 
             // lblHitPoints
             // 
@@ -107,7 +104,6 @@
             lblGold.Name = "lblGold";
             lblGold.Size = new Size(0, 15);
             lblGold.TabIndex = 5;
-            lblGold.Click += label6_Click;
             // 
             // lblExperience
             // 
@@ -116,7 +112,6 @@
             lblExperience.Name = "lblExperience";
             lblExperience.Size = new Size(0, 15);
             lblExperience.TabIndex = 6;
-            lblExperience.Click += label7_Click;
             // 
             // lblLevel
             // 
@@ -134,7 +129,6 @@
             label5.Size = new Size(74, 15);
             label5.TabIndex = 8;
             label5.Text = "Select action";
-            label5.Click += label5_Click;
             // 
             // cboWeapons
             // 
@@ -160,6 +154,7 @@
             btnUseWeapon.TabIndex = 11;
             btnUseWeapon.Text = "Use";
             btnUseWeapon.UseVisualStyleBackColor = true;
+            btnUseWeapon.Click += new System.EventHandler(this.btnUseWeapon_Click);
             // 
             // btnUsePotion
             // 
@@ -178,6 +173,7 @@
             btnNorth.TabIndex = 13;
             btnNorth.Text = "North";
             btnNorth.UseVisualStyleBackColor = true;
+            btnNorth.Click += new System.EventHandler(this.btnNorth_Click);
             // 
             // btnEast
             // 
@@ -187,6 +183,8 @@
             btnEast.TabIndex = 14;
             btnEast.Text = "East";
             btnEast.UseVisualStyleBackColor = true;
+            this.btnEast.Click += new System.EventHandler(this.btnEast_Click);
+
             // 
             // btnSouth
             // 
@@ -196,6 +194,7 @@
             btnSouth.TabIndex = 15;
             btnSouth.Text = "South";
             btnSouth.UseVisualStyleBackColor = true;
+            this.btnSouth.Click += new System.EventHandler(this.btnSouth_Click);
             // 
             // btnWest
             // 
@@ -205,6 +204,7 @@
             btnWest.TabIndex = 16;
             btnWest.Text = "West";
             btnWest.UseVisualStyleBackColor = true;
+            this.btnWest.Click += new System.EventHandler(this.btnWest_Click);
             // 
             // rtbLocation
             // 
